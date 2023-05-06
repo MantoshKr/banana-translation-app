@@ -1,0 +1,46 @@
+<!-- This is an HTML document -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- The head section contains metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- The title appears in the browser's title bar -->
+    <title>banana speak</title>
+    <!-- The style section contains CSS rules for styling the page -->
+    <style>
+        /* This rule applies to the text area input */
+        textarea {
+            width: 80%;
+            height: 10vh;
+            display: block;
+            margin: 1rem;
+            padding: 1rem;
+        }
+        /* This rule applies to the output display area */
+        #output {
+            border: 1px solid black;
+            height: 10vh;
+            width: 80%;
+            margin: 1rem;
+            padding: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- The body section contains the form for translating sentences -->
+    <h1>banana Speak </h1>
+    
+    <textarea id="txt-input"
+        placeholder="put your text in English here & press the translate button to convert it to banana text"></textarea>
+    <button id="btn-translate">Translate</button>
+
+    <div style="font-size: larger;"> Here is your banana translation 🙂 </div>
+    <div id="output"></div>
+    <!-- The script section contains the JavaScript code for the translation app -->
+    <script src="app.js" type="text/javascript"></script>
+</body>
+
+</html>
